@@ -14,6 +14,8 @@
 		CB325D6E21882F2600313C16 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB325D6C21882F2600313C16 /* LaunchScreen.storyboard */; };
 		CB325D7921882F2600313C16 /* ConcentrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB325D7821882F2600313C16 /* ConcentrationTests.swift */; };
 		CB325D8421882F2600313C16 /* ConcentrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB325D8321882F2600313C16 /* ConcentrationUITests.swift */; };
+		CB47E8AF21894ED3001D68E5 /* Concentration.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47E8AE21894ED3001D68E5 /* Concentration.swift */; };
+		CB47E8B121894FBF001D68E5 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB47E8B021894FBF001D68E5 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		CB325D7F21882F2600313C16 /* ConcentrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConcentrationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CB325D8321882F2600313C16 /* ConcentrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConcentrationUITests.swift; sourceTree = "<group>"; };
 		CB325D8521882F2600313C16 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB47E8AE21894ED3001D68E5 /* Concentration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Concentration.swift; sourceTree = "<group>"; };
+		CB47E8B021894FBF001D68E5 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 		CB325D6221882F2500313C16 /* Concentration */ = {
 			isa = PBXGroup;
 			children = (
+				CB47E8AE21894ED3001D68E5 /* Concentration.swift */,
+				CB47E8B021894FBF001D68E5 /* Card.swift */,
 				CB325D6521882F2500313C16 /* ViewController.swift */,
 				CB325D6721882F2500313C16 /* Main.storyboard */,
 				CB325D922188309E00313C16 /* Supporting Files */,
@@ -266,6 +272,8 @@
 			files = (
 				CB325D6621882F2500313C16 /* ViewController.swift in Sources */,
 				CB325D6421882F2500313C16 /* AppDelegate.swift in Sources */,
+				CB47E8AF21894ED3001D68E5 /* Concentration.swift in Sources */,
+				CB47E8B121894FBF001D68E5 /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
